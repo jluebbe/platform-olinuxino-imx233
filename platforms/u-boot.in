@@ -2,6 +2,7 @@
 
 menuconfig U_BOOT
 	select BOOTLOADER
+	select HOST_MXS_UTILS
 	prompt "U-Boot                        "
 	bool
 
